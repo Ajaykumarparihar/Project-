@@ -1,11 +1,5 @@
 import scrapy
 
-
-class RlofficeSpider(scrapy.Spider):
-    name = "rloffice"
-    allowed_domains = ["mega.nz"]
-    start_urls = ["https://mega.nz/folder/ksYAXR5S#Oy9DapBfBrV2UyM_cksYhw"]
-
    
 class RlofficeSpider(scrapy.Spider):
     name = "rloffice"
